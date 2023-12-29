@@ -2,7 +2,7 @@ import Head from "next/head";
 import Layout from "@/components/Layout";
 import Link from "next/link";
 import Image from "next/image";
-import profilepic from "../../public/images/profile/developer-pic-1.png";
+import profilepic from "../../public/images/profile/portfolio.jpg";
 import AnimatedText from "@/components/AnimatedText";
 import { LinkArrow } from "@/components/Icons";
 import Hireme from "@/components/Hireme";
@@ -24,13 +24,17 @@ export default function Home() {
               <Image
                 src={profilepic}
                 alt="CodeBucks"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full "
+                className="w-full h-auto lg:hidden md:inline-block md:w-full mx-auto"
+                style={{
+                  width: '70%',
+                  height: 'auto',
+                  marginLeft: '50px',  
+                }}
                 priority
-                sizes="(max-width:768px) 100vw,
-                (max-width:1200px) 50vw,
-                50vw"
+                sizes="(max-width:576px) 90vw, (max-width:768px) 80vw, (max-width:1024px) 70vw, 50vw"
               />
             </div>
+
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
                 text="Coding the Future, One Line at a Time."
@@ -46,7 +50,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center ">
                 <Link
-                  href="/Anshika_Gupta_Resume.pdf"
+                  href="/Anshika-Gupta.pdf" 
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark

@@ -3,11 +3,8 @@ import Link from "next/link";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
-  TwitterIcon,
-  DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
   SunIcon,
   MoonIcon,
 } from "./Icons";
@@ -106,21 +103,12 @@ const NavBar = () => {
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-6 mr-3"
-          >
-            <TwitterIcon />
-          </motion.a>
-          <motion.a
-            href="https://github.com/AG9760"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
           >
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://github.com/AG9760"
+            href="https://www.linkedin.com/in/anshika-gupta-072001/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -128,25 +116,6 @@ const NavBar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a
-            href="https://github.com/AG9760"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3"
-          >
-            <PinterestIcon />
-          </motion.a>
-          <motion.a
-            href="https://github.com/AG9760"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 ml-3"
-          >
-            <DribbbleIcon />
-          </motion.a>
-
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
             className={`ml-3 flex items-center justify-center rounded-full p-1
@@ -198,21 +167,12 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mr-3 sm:mx-1"
-            >
-              <TwitterIcon />
-            </motion.a>
-            <motion.a
-              href="https://github.com/AG9760"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 sm:mx-1 bg-light rounded-full dark:bg-dark"
             >
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://github.com/AG9760"
+              href="https://www.linkedin.com/in/anshika-gupta-072001/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -220,25 +180,6 @@ const NavBar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
-              href="https://github.com/AG9760"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mx-1 bg-light rounded-full"
-            >
-              <PinterestIcon />
-            </motion.a>
-            <motion.a
-              href="https://github.com/AG9760"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3 sm:mx-1"
-            >
-              <DribbbleIcon />
-            </motion.a>
-
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
               className={`ml-3 flex items-center justify-center rounded-full p-1

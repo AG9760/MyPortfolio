@@ -59,9 +59,9 @@ const Experience = () => {
             companyLink="https://www.infoobjects.com/"
             time="Jan 2023 - Present"
             address="Jaipur, Rajasthan, India "
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            work="Skilled in developing full-stack web applications using MERN and MEAN stacks, with
+            extensive training in HTML, CSS, and JavaScript, and experience in developing
+            management system software."
           />
           <Details
             position="Front End Designing "
@@ -69,9 +69,9 @@ developing new tools for data analysis and visualization."
             companyLink="http://chowgulemediconsult.com/"
             time="Jul 2022 - Nov 2022"
             address="South Mumbai, Maharashtra"
-            work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            work="Developed user login dashboards and admin panels for web projects. 
+            Designed website layouts using Figma, while also creating user interactive form
+            designs and data charts for improved user engagement."
           />
           
         </ul>

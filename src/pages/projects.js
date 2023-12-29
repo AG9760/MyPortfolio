@@ -5,7 +5,12 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/project1.png"; 
+import project2 from "../../public/images/projects/project2.png"; 
+import project3 from "../../public/images/projects/project3.png"; 
+import project4 from "../../public/images/projects/project4.png"; 
+import project5 from "../../public/images/projects/project5.png"; 
+import project6 from "../../public/images/projects/project6.png"; 
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -144,73 +149,67 @@ const Projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8  md:gap-y-24 sm:gap-x-0 ">
             <div className=" col-span-12">
               <FeaturedProject
-                title=" Crypto Screener Application"
+                title=" School Management System"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
+                summary="Designed a web application with Admin access, User Attendance management, 
+                User Profiles, and a section for Notes and Circulars. Streamlined communication and system management."
+                link="https://celebrated-sprinkles-6b7916.netlify.app/"
+                github="https://github.com/AG9760/SchMangSystem/tree/master"
+                type="SysMangSys"
               />
             </div>
             <div className=" col-span-6 sm:col-span-12 sm:col-span-12">
               <Project
-                title=" Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
+                title=" Kaushal Chhatrapati"
+                img={project3}
+                summary="Designed and developed the static form, Dynamic Templates and user dashboards of
+                  SoBo Clinic Mumbai.."
+                link="https://drkaushalchhatrapati.com/"
+                github="https://github.com/AG9760"
                 type="Featured Project"
               />
             </div>
             <div className=" col-span-6 sm:col-span-12">
               <Project
-                title=" Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
+                title=" Poona Surgical Society"
+                img={project4}
+                summary="Design 3 various UI Designs for the PSS Community Website.
+                  Developed One of that design as a product with core functionalities."
+                link="https://www.figma.com/file/SIoNONfG5Bc85eeacbJOmn/Untitled?node-id=0%3A1"
+                github="https://github.com/AG9760"
                 type="Featured Project"
               />
             </div>
             <div className=" col-span-12">
               <FeaturedProject
-                title=" Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
+                title=" Cafe Management"
+                img={project2}
+                summary="Built a MEAN Stack web app with real-time capabilities for Users, Orders, Inventory,
+                and Account Management. Specialized in designing a seamless and robust order-punching system."
+                link="https://64b66fb627a2ce08b4f011bb--heartfelt-sprinkles-821571.netlify.app/"
+                github="https://github.com/AG9760/CafeMang/tree/main"
+                type="FoodZone"
+              />
+            </div>
+            <div className=" col-span-6 sm:col-span-12">
+              <Project
+                title=" Personal Portfolio"
+                img={project5}
+                summary="
+                      Web developer skilled in HTML, CSS, Bootstrap, and
+                      JavaScript. Proficient in project development and deployment on Github, with a focus on creating dynamic and visually appealing websites. Demonstrated success in delivering responsive user interfaces and collaborating on innovative projects."
+                link="https://ag9760.github.io/Portfolio-AG9760.io/"
+                github="https://github.com/AG9760/Portfolio-AG9760.io"
                 type="Featured Project"
               />
             </div>
             <div className=" col-span-6 sm:col-span-12">
               <Project
-                title=" Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div>
-            <div className=" col-span-6 sm:col-span-12">
-              <Project
-                title=" Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
+                title=" E-commerce Website"
+                img={project6}
+                summary="E-commerce Website"
+                link="https://ag9760.github.io/E-commerce.io/"
+                github="https://github.com/AG9760/E-commerce.io"
                 type="Featured Project"
               />
             </div>
